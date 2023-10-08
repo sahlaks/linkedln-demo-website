@@ -1,0 +1,301 @@
+  
+  body{
+        background-color:#f3f2ef;
+    }
+
+    .header{
+            margin: 0;
+            width: 100%;
+            height: 7vh;
+            justify-content: space-evenly;
+            display: flex;
+            flex-direction: row;
+            background-color: white;
+    }
+    .header-left img{
+        object-fit: contain;
+        height: 34px;
+        margin-right:15px;
+    }
+    .header-search{
+        padding: 20px;
+        color: grey;
+        align-items: center;
+        border-radius: 10px;
+        display: flex;
+        background-color: #eef3f8;
+    }
+    .header-search input{
+        outline: none;
+        border: none;
+        background: none;
+    }
+    .header-left{
+        display: flex;
+           }
+    .header-middle{
+        display: flex;
+        
+    }
+    .header-right{
+        display:flex;
+         }
+    .header-end{
+        display:flex;
+        flex-direction:column;
+        align-items: center;
+        color:grey;
+    }
+    .header-end:hover{
+        cursor: pointer;
+        color: black;
+    }
+    .header-icon{
+        display: flex;
+        flex-direction:column;
+        align-items: center;
+        margin-right: 20px;
+        color:grey;
+    }
+    .header-icon:hover{
+        cursor: pointer;
+        color:black;
+    }
+    .header-icon h3{
+        font-size: 14px;
+        margin-top: 1px;
+        font-weight: 1000;
+    }
+    .header-end h3{
+        font-size: 14px;
+        margin-top: 5px;
+        font-weight: 1000;
+    }
+    .side{
+    
+        margin-top: 30px;
+        /*padding-top: 40px;*/
+        display: flex;
+        width: 20%;
+        height: 150px;
+        background-color: white;
+        border-radius: 2px;
+        margin-left: 150px;
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+        border-bottom: 1px solid gray;
+        justify-content: space-between;
+    }
+    .start{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 60px;
+    }
+
+    .start h3{
+        font-size: 20px;
+        margin-top: 20px;
+        font-weight: bold;
+    }
+    .start h4{
+        font-size: 15px;
+        font-weight: 300;
+    }
+    .middle{
+        padding-top: 30px;
+        height: 85px;
+        margin-left: 120px;
+        display: flex;
+        flex-direction: column;
+        border-radius: 10px;
+        background-color: white;
+       }
+       .feed_inputarea{
+       color: grey;
+       display: flex;
+        }
+        .wideinput{
+            width: 75vh;
+            height:5vh;
+            border-radius: 40px;
+        }
+        .wideinput:hover{
+            cursor: pointer;
+            color: gray;
+        }
+        .feed_options{
+            display: flex;
+        }
+
+        .option1{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding-left: 50px;
+        }
+        .option1 h4{
+        font-size: 14px;
+        margin-top: 1px;
+        font-weight: 500;
+        }
+       .message{
+            border-radius: 10px;
+            background-color: white;
+        }
+        .message-head{
+        display:flex;
+        padding-left:24px; 
+        }
+        .info{
+            margin-left: 10px;
+            display:flex;
+            flex-direction:row;
+        }
+        .info h2{
+            font-size: 20px;
+        }
+        .info p{
+            font-size: 15px;
+            color: gray;
+        }
+        .message-body{
+            padding-left: 30px;
+        }
+        .message-option1{
+            display: flex;
+        flex-direction: row;
+        align-items: center;
+       justify-content: space-between;
+        padding-left: 50px;
+        }
+        .message-option1:hover{
+            cursor: pointer;
+        }
+        .message-option1 h4{
+            font-size: 14px;
+            font-weight: 500;
+            }
+
+    .last-section{
+        position: sticky;
+        margin-left: 40px;
+        top:3px;
+    
+        background-color: white;
+        height: fit-content;
+        border-radius: 10px;
+        justify-content: space-between;
+        padding-bottom: 10px;
+            }
+        .suggestion{
+            display: flex;
+           flex-direction: column;
+            /*justify-content: space-between;*/
+            padding:60px;
+        }
+        .suggestion h4{
+            font-size: 16px;
+            font-weight: 400;
+            cursor: pointer;
+        }
+        .suggestion h4:hover{
+            background-color:lightgrey;
+        }
+        .suggestion p{
+            font-size: 10px;
+            color: gray;
+        }
+
+    .side-second{
+        flex-direction: column;
+        display: flex;
+        width: 20%;
+        height: 70px;
+        background-color: white;
+        border-radius: 2px;
+        margin-left: 150px;
+        border-bottom: 1px solid gray;
+        cursor: pointer;
+        
+    }
+    .side-second p{
+        padding-left: 20px;
+        font-size: 13px;
+        font-weight: 100;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        color: gray;
+        float:left;
+
+    }
+    .side-second p:hover{
+        cursor: pointer;
+        color:black;
+    }
+    .side-third{
+        
+        display: flex;
+        flex-direction: row;
+        width: 20%;
+        height: 45px;
+        background-color: white;
+        border-radius: 2px;
+        margin-left: 150px;
+        border-bottom: 1px solid gray;
+    }
+    .side-third img{
+        object-fit: contain;
+        height: 20px;
+        padding-top: 15px;
+        padding-left: 20px;
+
+       }
+    .side-third h4{
+        font-size: 13px;
+        font-weight: 50;
+        padding-left: 10px;
+    }
+    
+       .side-fourth{
+        display: flex;
+        flex-direction:row;
+        width: 20%;
+        height: 40px;
+        background-color: white;
+        border-radius: 2px;
+        margin-left: 150px;
+        border-bottom: 1px solid gray;
+        cursor: pointer;
+       }
+    
+       .side-fourth h5{
+        font-size: 15px;
+        font-weight: 40;
+        color: gray;
+       }
+       .side-fourth h5:hover{
+        background-color: whitesmoke;
+        cursor:pointer;
+        color: black;
+       }
+       .side-fifth{
+        display: flex;
+        flex-direction: column;
+        width: 20%;
+        height: 150px;
+        margin-top: 20px;
+        margin-left: 150px;
+        background-color: white;
+        border-radius: 10px;
+        border-bottom: 1px solid gray;
+       }
+       .side-fifth p{
+        display: flex;
+        margin-left: 20px;
+        color: blue;
+        cursor: pointer;
+       }
+      
